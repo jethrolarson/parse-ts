@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "target": "ES2015",
+        "lib": ["ESNext"],
+        "strict": true,
+        "module": "esnext",
+        "forceConsistentCasingInFileNames": true,
+        "esModuleInterop": true
+    },
+    "include": ["src"]
+}
