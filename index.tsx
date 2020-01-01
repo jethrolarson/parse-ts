@@ -1,1 +1,0 @@
-const str = (v: unknown): Option<string>

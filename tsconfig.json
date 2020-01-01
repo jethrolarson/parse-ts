@@ -1,11 +1,16 @@
 {
     "compilerOptions": {
-        "target": "ES2015",
+        "target": "ES6",
         "lib": ["ESNext"],
         "strict": true,
-        "module": "esnext",
+        "sourceMap": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "suppressImplicitAnyIndexErrors": true,
+        "allowSyntheticDefaultImports": true,
         "forceConsistentCasingInFileNames": true,
-        "esModuleInterop": true
+        "esModuleInterop": true,
+        "noImplicitReturns": true,
     },
     "include": ["src"]
 }
