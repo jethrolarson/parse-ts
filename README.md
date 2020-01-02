@@ -8,21 +8,21 @@ Depends on fp-ts
 ```typescript
 // example interface
 interface Rec {
-  num: number;
-  str: string;
-  arr: number[];
-  bool: boolean;
+  a: number;
+  b: string;
+  c: number[];
+  d: boolean;
 };
 
 // Validator spec
-const rec: RecordValidator<Rec> = {
-  num: num,
-  str: str,
-  arr: arrayOf(num),
-  bool: bool,
+const rec: RecordSpec<Rec> = {
+  a: num,
+  b: str,
+  c: arrayOf(num),
+  d: bool,
 };
 
-const someData = JSON.parse(`{"num": 1, "str": "hi", "arr": [1], "bool": false}`);
+const someData = JSON.parse(`{"a": 1, "b": "hi", "c": [1], "d": false}`);
 
 // usage
 record(rec)(someData); // => Option<Rec>
@@ -31,4 +31,8 @@ record(rec)(someData); // => Option<Rec>
 
 Docs coming soon. Check out src/index.spec.ts for more usage examples.
 
-This library isn't on NPM yet. This is just a call for feedback for the moment. 
+This library isn't on NPM yet. This is just a call for feedback for the moment.
+
+## See Also
+* [io-ts](https://github.com/gcanti/io-ts) Similar to parse-ts but more powerful. Worth a look if you want more than simple JSON parsing.
+

@@ -1,4 +1,4 @@
-import {record, str, num, bool, nil, exactly, arrayOf, RecordValidator} from './index';
+import {record, str, num, bool, nil, exactly, arrayOf, RecordSpec} from './index';
 import { getOrElse } from 'fp-ts/lib/Option';
 
 describe('str', () => {
@@ -96,7 +96,7 @@ describe('record', () => {
         arr: number[];
         bool: boolean;
     };
-    const rec: RecordValidator<Rec> = {
+    const rec: RecordSpec<Rec> = {
         num: num,
         str: str,
         arr: arrayOf(num),
