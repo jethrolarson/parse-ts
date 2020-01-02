@@ -29,7 +29,9 @@ record(rec)(someData); // => Option<Rec>
 
 ```
 
-Docs coming soon. Check out src/index.spec.ts for more usage examples.
+Check out src/index.spec.ts for more usage examples.
+
+## [Docs](http://www.jethrolarson.com/parse-ts/src/index.html) (Annotated Source)
 
 This library isn't on NPM yet. This is just a call for feedback for the moment.
 
