@@ -6,11 +6,17 @@
         "sourceMap": true,
         "module": "commonjs",
         "moduleResolution": "node",
+        "skipLibCheck": true,
         "suppressImplicitAnyIndexErrors": true,
         "allowSyntheticDefaultImports": true,
         "forceConsistentCasingInFileNames": true,
         "esModuleInterop": true,
         "noImplicitReturns": true,
+        "outDir": "dist",
+        "declaration": true
     },
-    "include": ["src"]
+    "include": ["src"],
+    "exclude": [
+        "node_modules"
+    ]
 }
