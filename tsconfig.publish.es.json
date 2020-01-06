@@ -1,0 +1,8 @@
+{
+    "extends": "./tsconfig.publish.json",
+    "compilerOptions": {
+        "outDir": "./dist/es",
+        "target": "es2015",
+        "module": "es2015"
+    }
+}

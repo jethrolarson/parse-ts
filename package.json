@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "./node_modules/typescript/bin/tsc -p ./tsconfig.json",
+    "build": "./node_modules/typescript/bin/tsc -p ./tsconfig.publish.json",
+    "build-es6": "./node_modules/typescript/bin/tsc -p ./tsconfig.publish.es.json",
     "lint": "node ./node_modules/eslint/bin/eslint.js . --ext .ts",
     "fixlint": "node ./node_modules/eslint/bin/eslint.js . --ext .ts --fix",
     "test": "./node_modules/.bin/jest --watch",
     "check": "./node_modules/.bin/jest",
     "coverage": "open ./coverage/index.html",
+    "prepublishOnly": "npm run build && npm run build-es6",
     "docs": "./node_modules/.bin/docco 'src/index.ts' --css style.css -l linear"
   },
   "author": "",
