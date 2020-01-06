@@ -32,7 +32,6 @@ const someData = JSON.parse(`{"a": 1, "b": "hi", "c": [1], "d": false}`);
 
 // usage
 record(rec)(someData); // => Option<Rec>
-
 ```
 
 Check out src/index.spec.ts for more usage examples.

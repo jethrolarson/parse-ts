@@ -1,5 +1,6 @@
 // # parse-ts
-// Type-safe parsing of JSON-compatible runtime data.
+// Type-safe parsing of JSON-compatible runtime data.  
+// [View on github](https://github.com/jethrolarson/parse-ts)
 import {some, none, Option, isSome, map} from 'fp-ts/lib/Option';
 import {filterMap} from 'fp-ts/lib/Array';
 import {flow} from 'fp-ts/lib/function';
