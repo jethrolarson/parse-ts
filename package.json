@@ -1,7 +1,16 @@
 {
   "name": "parse-ts",
   "version": "1.0.1",
-  "description": "",
+  "description": "Validate json with types!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jethrolarson/parse-ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jethrolarson/parse-ts/issues"
+  },
+  "homepage": "http://www.jethrolarson.com/parse-ts/src/index.html",
+  "readmeFilename": "README.md",
   "main": "dist/index.js",
   "scripts": {
     "build": "./node_modules/typescript/bin/tsc -p ./tsconfig.publish.json",
@@ -14,7 +23,7 @@
     "prepublishOnly": "npm run build && npm run build-es6",
     "docs": "./node_modules/.bin/docco 'src/index.ts' --css style.css -l linear"
   },
-  "author": "",
+  "author": "Jethro Larson",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^24.0.25",
@@ -34,5 +43,6 @@
     "hooks": {
       "pre-push": "npm run lint && npm run check"
     }
-  }
+  },
+  "engine": "node >= 4.0.0"
 }
