@@ -5,6 +5,12 @@ You ever take json data from the server and want to verify it matches some inter
 
 Depends on fp-ts
 
+## Installation
+
+`npm i -S parse-ts`
+
+## Example
+
 ```typescript
 // example interface
 interface Rec {

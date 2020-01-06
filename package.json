@@ -2,7 +2,7 @@
   "name": "parse-ts",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "./node_modules/typescript/bin/tsc -p ./tsconfig.publish.json",
     "build-es6": "./node_modules/typescript/bin/tsc -p ./tsconfig.publish.es.json",
