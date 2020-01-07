@@ -29,7 +29,6 @@
     "@types/jest": "^24.0.25",
     "@typescript-eslint/eslint-plugin": "^2.14.0",
     "@typescript-eslint/parser": "^2.14.0",
-    "docco": "^0.8.0",
     "eslint": "^6.8.0",
     "husky": "^3.1.0",
     "jest": "^24.9.0",

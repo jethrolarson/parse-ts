@@ -3,7 +3,7 @@ _Validate json with types!_
 
 You ever take json data from the server and want to verify it matches some interface? This library is for you!
 
-Depends on fp-ts
+Depends on [fp-ts](https://github.com/gcanti/fp-ts)
 
 ## Installation
 
