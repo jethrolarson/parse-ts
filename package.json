@@ -1,6 +1,6 @@
 {
   "name": "parse-ts",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Validate json with types!",
   "repository": {
     "type": "git",
