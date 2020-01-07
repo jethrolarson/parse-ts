@@ -34,7 +34,7 @@ const someData = JSON.parse(`{"a": 1, "b": "hi", "c": [1], "d": false}`);
 record(rec)(someData); // => Option<Rec>
 ```
 
-Check out src/index.spec.ts for more usage examples.
+Check out [unit tests](src/index.spec.ts) for more usage examples.
 
 ## Docs
  [Source](https://github.com/jethrolarson/parse-ts/blob/master/src/index.ts) has JSDoc with examples.
