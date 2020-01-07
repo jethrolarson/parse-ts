@@ -13,7 +13,8 @@
         "esModuleInterop": true,
         "noImplicitReturns": true,
         "outDir": "dist",
-        "declaration": true
+        "declaration": true,
+        "removeComments": false
     },
     "include": ["src"],
     "exclude": [

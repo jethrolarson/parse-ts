@@ -36,7 +36,8 @@ record(rec)(someData); // => Option<Rec>
 
 Check out src/index.spec.ts for more usage examples.
 
-## [Docs](http://www.jethrolarson.com/parse-ts/src/index.html) (Annotated Source)
+## Docs
+ [Source](https://github.com/jethrolarson/parse-ts/blob/master/src/index.ts) has JSDoc with examples.
 
 This library isn't on NPM yet. This is just a call for feedback for the moment.
 

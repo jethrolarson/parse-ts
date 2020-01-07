@@ -21,7 +21,7 @@
     "check": "./node_modules/.bin/jest",
     "coverage": "open ./coverage/index.html",
     "prepublishOnly": "npm run build && npm run build-es6",
-    "docs": "./node_modules/.bin/docco 'src/index.ts' --css style.css -l linear"
+    "docs": "./node_modules/.bin/docco 'dist/index.d.ts' --css style.css -l linear"
   },
   "author": "Jethro Larson",
   "license": "ISC",
