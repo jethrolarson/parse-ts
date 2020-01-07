@@ -39,8 +39,6 @@ Check out src/index.spec.ts for more usage examples.
 ## Docs
  [Source](https://github.com/jethrolarson/parse-ts/blob/master/src/index.ts) has JSDoc with examples.
 
-This library isn't on NPM yet. This is just a call for feedback for the moment.
-
 ## See Also
 * [io-ts](https://github.com/gcanti/io-ts) Similar to parse-ts but more powerful. Worth a look if you want more than simple JSON parsing.
 
