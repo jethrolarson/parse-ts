@@ -12,6 +12,7 @@
   "homepage": "http://www.jethrolarson.com/parse-ts/src/index.html",
   "readmeFilename": "README.md",
   "main": "dist/index.js",
+  "module": "dist/es/index.js",
   "scripts": {
     "build": "./node_modules/typescript/bin/tsc -p ./tsconfig.publish.json",
     "build-es6": "./node_modules/typescript/bin/tsc -p ./tsconfig.publish.es.json",
@@ -30,12 +31,13 @@
     "@typescript-eslint/eslint-plugin": "^2.14.0",
     "@typescript-eslint/parser": "^2.14.0",
     "eslint": "^6.8.0",
+    "fp-ts": "^2.3.1",
     "husky": "^3.1.0",
     "jest": "^24.9.0",
     "ts-jest": "^24.2.0",
     "typescript": "^3.7.4"
   },
-  "dependencies": {
+  "peerDependencies": {
     "fp-ts": "^2.3.1"
   },
   "husky": {
