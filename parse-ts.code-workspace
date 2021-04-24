@@ -1,0 +1,23 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "typescript.tsdk": "node_modules/typescript/lib",
+        "editor.detectIndentation": false,
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+        "editor.formatOnSave": true,
+        "eslint.format.enable": true,
+        "eslint.lintTask.enable": true
+    },
+    "extensions": {
+        "recommendations": [
+            "esbenp.prettier-vscode",
+            "rvest.vs-code-prettier-eslint",
+            "dbaeumer.vscode-eslint"
+        ]
+    }
+}

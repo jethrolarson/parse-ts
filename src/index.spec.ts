@@ -1,5 +1,5 @@
 import {record, str, num, bool, nil, exactly, arrayOf, RecordSpec} from './index';
-import { getOrElse } from 'fp-ts/lib/Option';
+import {getOrElse} from 'fp-ts/lib/Option';
 
 describe('str', () => {
     const failString = 'fail';
@@ -90,12 +90,12 @@ describe('arrayOf', () => {
 });
 
 describe('record', () => {
-    interface Rec{
+    interface Rec {
         num: number;
         str: string;
         arr: number[];
         bool: boolean;
-    };
+    }
     const rec: RecordSpec<Rec> = {
         num: num,
         str: str,
